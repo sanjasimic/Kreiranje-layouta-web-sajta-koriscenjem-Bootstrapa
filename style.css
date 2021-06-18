@@ -1,0 +1,70 @@
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+    margin-left: 1em;
+    margin-right: 1em;
+    }
+    
+    #hero-section {
+        background-image: url(/img/hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    
+    header a {
+        color: black;
+        margin-left: 24px;
+    }
+    header a:hover {
+        color: slategray;
+    }
+    header a:visited {
+        color: slategray;
+    }
+    #menu-logo {
+        position: relative;
+        right:-45vw;
+    }
+    #text{
+        position: relative;
+        bottom:410px ;
+        left:5vw;
+        z-index: 1;
+    }
+    #picture-section {
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    #intro-section {
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    
+    #picture2-section {
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    @media only screen and (max-width: 1240px) {
+        #nav  p {
+             font-size: 22px;
+        }
+        #span1{
+            font-size:1rem;
+        }
+        #text p {
+            font-size: 1rem;
+        }
+
+    }
+    
